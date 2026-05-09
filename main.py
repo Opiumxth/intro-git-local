@@ -1,9 +1,9 @@
 from comparacion import comparar
 
 def main():
-        print("Esto es una prueba :)")
         a = int(input("Ingrese un número: "))
         b = int(input("Ingrese otro número: "))
+        print("Comparando los números...")
 
         if comparar(a, b) == 1:
                 print(f"{a} es mayor que {b}")
